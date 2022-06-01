@@ -1,0 +1,170 @@
+* {box-sizing: border-box;}
+
+        body { 
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        .header-bg{
+            background-color: #0f893b;
+        }
+        .header {
+            overflow: hidden;
+            padding: 5px 3px;
+            text-align: center;
+        }
+        .logo img{
+            width: 100px;
+            height: 100px;
+            padding: 2px;
+            text-align: center;
+        }.header-titled {
+            color: yellow;
+            font-size: 35px;
+            font-weight: 600;
+            text-align: left;
+            letter-spacing: 1px;
+        }
+        @media (max-width:768px) {
+            .logo img{
+                width:65px;
+                height: 60px;
+            }.header-titled{
+                font-size: 14px;
+                letter-spacing: 0;
+            }
+        }
+
+        .header-bg-menu{
+            background-color: #F1EA02;
+        }
+        .header {
+            overflow: hidden;
+            padding: 5px 3px;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            overflow: hidden;
+        }li {
+            float: left;
+        }li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }li a:hover{
+            color: #fff !important;
+        }.active-menu{ color:#fff;}
+        .search-container {
+            float: right;
+            margin-top: 9px;
+        }.search-content{
+            border: none !important;
+            border-radius: 8px;
+            padding: 3px;
+            padding-left: 14px;
+        }
+        .breadcrumb-content{
+            margin-left: 35px;
+        }
+        .breadcrumb-item{
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+
+        /* Report table list =========================== */
+        .report-titled{
+            padding-left: 20px;
+            color: #fff;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        #th-bg1{
+            background-color: #319A2F;
+            padding: 20px;
+            color:#fff;
+            border-right: solid 1px #b4b4b4;
+            width: 20%;
+            text-align: center;
+            padding-top: 30px;
+        }
+        #th-bg2{
+            background-color: #319A2F;
+            color:#fff;
+            width: 40%;
+            text-align: center;
+            padding-bottom: 0%;
+            border: solid 1px #fff;
+        }
+        #th-bg3{
+            background-color: #319A2F;
+            color:#fff;
+            width: 20%;
+            text-align: center;
+            padding-bottom: 0%;
+            border: solid 1px #fff;
+        }
+        .mm-bg{
+            background-color: #2BD828;
+            padding: 0%;
+            height: 30px;
+            font-size: 12px;
+            padding-bottom: 0%;
+        }
+        .mm-bg .col-6{
+            padding: 6px;
+            border-right: 1px solid #D6D6D6;
+        }
+        .mft-bg{ 
+            padding: 1%;
+            height: 30px;
+            font-size: 12px;
+        }
+        .mft-bg .col-3{
+            padding: 0px;
+            border-right: 1px solid #D6D6D6;
+            background-color: #99D715;
+        }
+        .total .col-12{
+            padding: 15px;
+        }
+        .mft-bg .col-6{
+            padding: 0px;
+            border-right: 1px solid #D6D6D6;
+            background-color: #99D715;
+        }
+       
+
+        
+        #card-header-bg{
+            background-color: #116309;
+            border-top-left-radius:13px;
+            border-top-right-radius: 13px;
+        }
+    
+        .footer-bg{
+            background-color: #EEEEEE;
+        }.footer-txt{
+            font-size: 15px;
+            color: #777777;
+            font-weight: 600;
+        }.footer-social-icons{
+            font-size:17px;
+            padding:4px 5px;
+            border-radius: 50%;
+            border: solid black 1px;
+            margin: 2px;
+        }.footer-fb-icons{
+            font-size:17px;
+            padding:4px 7px;
+            border-radius: 50%;
+            border: solid black 1px;
+            margin: 2px;
+        }
